@@ -10,9 +10,7 @@ public class salary {
             salary += 1000;
         } else if (salary > 10001 && salary < 20000) {
             salary += 2500;
-        } else {
-            salary += 4000;
-        }
+        } else salary += 4400;
         System.out.print("Your new salary is : " + salary);
     }
 }
