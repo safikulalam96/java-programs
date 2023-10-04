@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+!conditional and loops/com/safikul/main/**/out/
+!conditional and loops/com/safikul/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -12,8 +12,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+!conditional and loops/com/safikul/main/**/bin/
+!conditional and loops/com/safikul/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
