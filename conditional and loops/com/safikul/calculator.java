@@ -3,12 +3,10 @@ import java.util.Scanner;
 public class calculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the operation to calculate (+ , - , * , % , /) ");
-
-
 
         while(true) {
             // taking the inputs
+            System.out.println("Enter the operation to calculate (+ , - , * , % , /) ");
             char op = input.next().trim().charAt(0);
             if (op == '+' || op == '-' || op =='*' || op=='%' || op=='/') {
                 System.out.println("Enter the value of a ");
@@ -38,8 +36,9 @@ public class calculator {
                     } else
                         System.out.println("Not Defined");
                 }
-            }
-            else
+            } else if (op=='X'|| op=='x') {
+                System.out.println("Thank you");
+            } else
                 System.out.println("Your input is Incorrect");
         }
     }
