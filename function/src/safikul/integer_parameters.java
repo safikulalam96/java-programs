@@ -1,8 +1,7 @@
 package src.safikul;
-import org.w3c.dom.ls.LSOutput;
 
 import  java.util.Scanner;
-public class parameters {
+public class integer_parameters {
 
     public static void main(String[] args) {
         Scanner in= new Scanner(System.in);
