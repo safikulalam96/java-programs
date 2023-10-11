@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/basic" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/conditional and loops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/function" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/array" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/basic/com/safikul" />
     </content>
     <orderEntry type="inheritedJdk" />

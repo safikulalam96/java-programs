@@ -1,4 +1,4 @@
-package src.safikul;
+package com.safikul.safikul;
 import java.util.Scanner;
 public class String_parameters {
     public static void main(String[] args) {
