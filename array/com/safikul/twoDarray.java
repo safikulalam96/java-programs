@@ -7,10 +7,12 @@ public class twoDarray {
 
         System.out.print("Enter the numbers of row: ");
         int r= in.nextInt();
-        System.out.print("Enter the numbers of row: ");
+        System.out.print("Enter the numbers of column: ");
         int c= in.nextInt();
 
         int[][] array=new int[r][c];
+
+        System.out.println("Enter the Array ");
 
         //inputs
         for (int row=0;row<r;row++){
@@ -20,7 +22,7 @@ public class twoDarray {
             }
         }
 
-
+        //output
         for (int row=0;row<r;row++){
 
             for (int col=0;col<c;col++){
