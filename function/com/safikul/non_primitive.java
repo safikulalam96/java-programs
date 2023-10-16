@@ -1,4 +1,4 @@
-package com.safikul.safikul;
+package com.safikul;
 import java.util.Arrays;
 import java.util.Scanner;
 public class non_primitive {

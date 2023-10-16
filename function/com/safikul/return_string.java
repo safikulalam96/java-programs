@@ -1,4 +1,4 @@
-package com.safikul.safikul;
+package com.safikul;
 import java.util.Scanner;
 public class return_string {
     public static void main(String[] args) {
