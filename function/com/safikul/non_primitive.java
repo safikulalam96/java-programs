@@ -11,6 +11,7 @@ public class non_primitive {
         System.out.println(Arrays.toString(arr));
     }
     static void simple(int[] num){
+
         num[0]=2;
     }
 }

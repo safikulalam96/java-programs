@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class salary {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the your salary to get the bonus ");
+        System.out.print("Enter your salary to get the bonus ");
         float salary = input.nextFloat();
         if (salary <= 10000) {
             salary += 1000;
