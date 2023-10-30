@@ -2,7 +2,7 @@ package com.safikul;
 
 public class insertion {
     public static void main(String[] args) {
-        int arr[]={23,56,11,64,2,5};
+        int[] arr ={23,56,11,64,2,5};
 
         //outer loop
         for (int i = 0; i < arr.length; i++) {
