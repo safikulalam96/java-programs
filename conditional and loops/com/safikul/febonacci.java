@@ -11,34 +11,34 @@ public class febonacci {
         int b = 1;
 
         // fecbonaci of the nth term
-        int count=2;
-        while(count<=n){
-            int temp=b;
-            b=b+a;
-            a=temp;
-            count++;
-        }
-        System.out.println(b);
+//        int count=2;
+//        while(count<=n){
+//            int temp=b;
+//            b=b+a;
+//            a=temp;
+//            count++;
+//        }
+//        System.out.println(b);
 
 
 
 
     //febonacci series upto nth term
-    /*    if (n >= 1) {
-            System.out.print(a + ", ");
+        if (n >= 1) {
+            System.out.print( a+" ,");
         }
         if (n >= 2) {
-            System.out.print(b + ", ");
+            System.out.print(b+" ,");
         }
 
         for (int i = 3; i <= n; i++) {
             int c = a + b;
             a = b;
             b = c;
-            System.out.print(c + ", ");
+            System.out.print(c+" ,");
 
         }
-    */
+
 
 
     }
