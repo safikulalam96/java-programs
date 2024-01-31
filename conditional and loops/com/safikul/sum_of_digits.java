@@ -1,15 +1,15 @@
 package loop_problems;
 
-public class reverse {
+public class sum_of_digits {
     public static void main(String[] args) {
-        int a=8652;
+        int a=999999999;
         int temp=a;
-        int rev=0;
+        int sum=0;
         while(a>0){
             int b=a%10;
-            rev=rev*10+b;
+            sum += b;
             a=a/10;
         }
-        System.out.print("The Reverse of "+temp+" is : => "+rev);
+        System.out.println("The sum of the "+temp+" is: "+sum);
     }
 }
